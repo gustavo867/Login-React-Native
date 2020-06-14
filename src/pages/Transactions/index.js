@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesome5, AntDesign } from '@expo/vector-icons'
 import { StyleSheet, View, TextInput, Text, Image, TouchableOpacity } from 'react-native';
 
-import car from '../../assets/icons8-carro-48.png'
-
 export default function Home({ navigation }) {
     return(
     <View style={styles.container}>

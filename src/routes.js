@@ -3,7 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from "@react-navigation/stack";
 
 import Login from './pages/Login';
-import Home from './pages/Home';
+import Transactions from './pages/Transactions';
+import Register from './pages/Register';
 
 const AppStack = createStackNavigator();
 
@@ -19,7 +20,8 @@ const Routes = () => {
             }}
             >
                 <AppStack.Screen name='Login' component={Login}/>
-                <AppStack.Screen name='Home' component={Home}/>
+                <AppStack.Screen name='Transactions' component={Transactions}/>
+                <AppStack.Screen name='Register' component={Register}/>
             </AppStack.Navigator>
         </NavigationContainer>
     )

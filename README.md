@@ -1,12 +1,14 @@
 <div align="center">
-<h1>Login Screen  and Home Screen with React Native 📱</h1>
+<h1>Bank Application on React Native 📱</h1>
 <img height="700" src="./src/github/print.jpg"></img>
+<img height="700" src="./src/github/register-page.jpg"></img>
 <img height="700" src="./src/github/home-page.jpg"></img>
 </div>
 
 # 🚀 Technologies
 - React Native
 - Expo
+- React Navigation
 
 # 🔧 How to use App
 
