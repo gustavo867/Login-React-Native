@@ -72,7 +72,7 @@ export default function Register({ navigation }) {
                     </KeyboardAvoidingView>
                     
                       
-                    <TouchableOpacity onPress={() => navigation.navigate('Transactions')} style={styles.btnRegister}>
+                    <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.btnRegister}>
                         <Text style={{ fontSize: 20, }} >Sign In</Text>
                     </TouchableOpacity>
              </Animated.View>

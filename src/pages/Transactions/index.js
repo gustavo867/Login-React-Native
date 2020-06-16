@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
 
         <View style={styles.informationsContainer}>
             <AntDesign 
-            onPress={() => navigation.navigate('Login')}
+            onPress={() => navigation.navigate('Home')}
             name="back" 
             size={20} 
             color="#FFF" 
@@ -34,7 +34,7 @@ export default function Home({ navigation }) {
         <View style={styles.transactionsContainer}>
             <View style={styles.transactions}>
                 <Text style={styles.transaction}>Transactions</Text>
-                <TouchableOpacity style={styles.buttonSee}>
+                <TouchableOpacity style={styles.buttonSee} onPress={() => {}}>
                     <Text style={{ color: 'blue', fontWeight: 'bold' }}>See All</Text>
                 </TouchableOpacity>
             </View>

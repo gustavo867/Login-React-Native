@@ -1,8 +1,13 @@
 <div align="center">
 <h1>Bank Application on React Native 📱</h1>
 <img height="700" src="./src/github/print.jpg"></img>
+</div>
+
+<div align="center">
+<h1> Images about Application </h1>
 <img height="700" src="./src/github/register-page.jpg"></img>
 <img height="700" src="./src/github/home-page.jpg"></img>
+<img height="700" src="./src/github/home-screen.jpg"></img>
 </div>
 
 # 🚀 Technologies
