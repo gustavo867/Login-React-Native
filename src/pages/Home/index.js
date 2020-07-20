@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, SafeAreaView, Text, StyleSheet, TouchableOpacity, TextInput, Image } from 'react-native'
-import { Ionicons, MaterialIcons, AntDesign, FontAwesome } from '@expo/vector-icons';
+import { Ionicons, MaterialIcons, AntDesign, FontAwesome, MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 export default function Home({ navigation }) {
@@ -60,7 +60,7 @@ export default function Home({ navigation }) {
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => {}} style={styles.creditCard}>
-                <AntDesign style={{ marginLeft: 10 }} name="creditcard" size={90} color="#0353A4" backgroundColor="#0353A4" />
+                <MaterialCommunityIcons style={{ marginRight: 75, }} name="card" size={96} color="#0353A4" />
                 <Text style={{ color: "rgba(255, 255, 255, 0.8)", fontSize: 17, paddingLeft: 10 }}>Credit Cards</Text>
                 <Text style={{ color: "rgba(255, 255, 255, 0.5)", fontSize: 20, paddingLeft: 10 }}>6 items</Text>
             </TouchableOpacity>
@@ -68,7 +68,7 @@ export default function Home({ navigation }) {
             </View>
 
             </View>
-                   
+
             <Text style={{ fontSize: 27, marginLeft: 20, }}>Choose a categories</Text>
 
             <View style={{ flexDirection: 'row', justifyContent: 'center'}}>

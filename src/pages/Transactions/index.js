@@ -83,7 +83,7 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
     purchasesContainer: {
         width: '100%',
-        backgroundColor: 'blue',
+        backgroundColor: 'rgba(0, 0, 255, 0.6)',
     },
 
     transactionsContainer: {
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     button: {
         marginTop: 20,
         marginLeft: 20,
-        backgroundColor: '#A9D3FF',
+        backgroundColor: 'rgba(169, 211, 255, 0.6)',
         width: '40%',
         height: 200,
         alignItems: 'center',
@@ -142,13 +142,13 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 50,
         marginTop: 90,
-        backgroundColor: 'blue'
+        backgroundColor: 'rgba(0, 0, 255, 0.1)'
     },
 
 
     container: {
         flex: 1,
-        backgroundColor: 'blue',
+        backgroundColor: 'rgba(0, 0, 255, 0.8)',
         alignItems: 'center',
         justifyContent: 'center',
     },
